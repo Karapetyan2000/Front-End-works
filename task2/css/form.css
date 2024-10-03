@@ -1,0 +1,306 @@
+.countdown-block {
+  text-align: center;
+  background: #3578e5;
+  background: linear-gradient(
+    90deg,
+    #041e37 0,
+    rgba(9, 70, 121, 1) 35%,
+    #5181b0 100%
+  );
+  color: #fff;
+  padding-bottom: 10px;
+  box-shadow: 0 0 black;
+}
+
+.countdown-block>h3 {
+  font-weight: 800;
+  font-size: 23px;
+  padding-top: 5px;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+
+.countdown-container {
+  max-width: 320px;
+  border: 5px solid #fffd07;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.countdown-container h3 {
+  color: #fffd07;
+  margin: 0 auto;
+  margin-top: -10px;
+  width: 90%;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.countdown {
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  font-size: 39px;
+  line-height: 1;
+  flex-direction: row;
+}
+
+.countdown-item {
+  color: #fff;
+  width: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.countdown-divider {
+  color: #fff;
+  width: 1rem;
+}
+
+.countdown-text {
+  margin: 0 auto;
+  margin-bottom: -8px;
+  width: 90%;
+  color: #fffd07;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.countdown-text span {
+  text-align: center;
+  width: 33%;
+}
+
+.img-responsive {
+  max-height:250px;
+  width: auto!important;
+}
+
+.countdown-container h3 {
+  font-size: 1rem;
+}
+
+.countdown-text {
+  font-size: 0.8rem;
+}
+
+.countdown-container, .countdown-text, .countdown-container h3 {
+  background: #3578e5;
+  background: linear-gradient(90deg, #084679 0, #1d5386 35%, #2f6294 100%);
+}
+
+@media(max-width:768px){
+  .countdown-container, .countdown-text, .countdown-container h3 {
+    background: #3578e5;
+    background: linear-gradient(90deg, #062e52 0, #1b5285 35%, #4475a4 100%);
+  }
+}
+
+.form__wrapper {
+  box-shadow: 0 4px 20px 20px #00000026;
+  border-radius: 5px;
+}
+
+.countdown-block {
+  border-radius: 5px 5px 0 0;
+}
+
+#form-wrap {
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+#product-bg-wrap {
+  margin: -10px 0 -130px 0;
+  width: 100%;
+}
+
+#product-bg {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+
+#product-bg img {
+  width: 100%;
+}
+
+#form {
+  max-width: 100%;
+  /* box-shadow: 0 4px 20px 20px #00000026; */
+  /* border-radius: 5px; */
+}
+
+#form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#form input,
+#form button,
+#form label,
+#form form {
+  width: 100%;
+}
+
+#form form {
+  padding: 130px 15px 25px 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#form label {
+  text-align: center;
+}
+
+#form .example {
+  text-align: left;
+  font-size: 13px;
+  color: #969696;
+}
+
+#form .example em {
+  color: #000;
+}
+
+#form button {
+  text-transform: uppercase;
+}
+
+#form .discount {
+  font-size: 40px;
+  color: #d84949;
+}
+
+#form .timeleft {
+  font-size: 12px;
+  color: #484848;
+  padding: 6px 0;
+}
+
+#form .timer {
+  font-size: 38px;
+  color: #4b4550;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.price {
+  margin: 10px auto;
+  display: flex;
+  font-size: 42px;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row!important;
+}
+
+.price #price-old,
+.price #price-new {
+  margin: 0 5px;
+  font-weight: bold;
+
+}
+
+.price #price-new {
+  color: #1e69aa;
+}
+
+.price #price-old {
+  color: #484747;
+  text-decoration: line-through; 
+  text-decoration-color: red;
+}
+
+#form form input {
+  height: 70px;
+  font-size: 30px;
+  margin: 0 0 24px 0;
+  padding-left: 10px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  color: gray;
+}
+
+#form form input:focus {
+  color: black;
+}
+
+#form form button {
+  height: 80px;
+  font-size: 30px;
+  background: #3578e5;
+  background: linear-gradient(
+    90deg,
+    #041e37 0,
+    rgba(9, 70, 121, 1) 35%,
+    #5181b0 100%
+  );
+  color: white;
+  border: 0;
+}
+
+#form form input,
+#form form button {
+  border-radius: 5px;
+}
+
+#form form #protection {
+  display: flex;
+  margin-top: 13px;
+  font-size: 12px;
+}
+
+#form form #protection strong {
+  color: #7c8b97;
+}
+
+
+#product-bg-wrap {
+  margin: 1px 0 -130px 0;
+}
+
+@media (max-width: 768px) {
+
+  #form form input,
+  #form form button {
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #form form button {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
+  #form .discount {
+    font-size: 28px;
+  }
+
+  #form .timer {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+  .price {
+    font-size: 48px!important;
+  }
+
+  #form form #protection {
+    font-size: 10px;
+    margin-top: 10px;
+    line-height: 1;
+  }
+
+  #form .timeleft {
+    padding: 0;
+  }
+}

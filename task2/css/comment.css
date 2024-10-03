@@ -1,0 +1,144 @@
+.form-for-comment {
+  display: block;
+  padding: 10px 30px;
+  margin: 10px auto;
+  width: 100%;
+  max-width: 380px;
+  background: #fafafa;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.14902) 0px 1px 1px 0px,
+    rgba(0, 0, 0, 0.09804) 0px 1px 2px 0px;
+    letter-spacing: -0.2px;
+}
+.form-for-comment input,
+textarea {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 10px auto;
+  background: #fff;
+  
+  border: none;
+  border-radius: 2px;
+  border: 1px solid #c4c4c4;
+  padding: 10px;
+  outline: 0;
+  transition: box-shadow .25s ease-in;
+  font-weight: bold;
+}
+
+.form-for-comment input::-moz-placeholder,
+.form-for-comment textarea::-moz-placeholder {
+    color: #464646!important;
+}
+
+.form-for-comment input::placeholder,
+.form-for-comment textarea::placeholder {
+    color: #464646!important;
+}
+
+.form-for-comment textarea {
+  resize: none;
+  height: 150px;
+}
+
+.form-for-comment input:focus, .form-for-comment input:hover,
+.form-for-comment textarea:focus,.form-for-comment textarea:hover {
+    color: rgb(16, 16, 16);
+    box-shadow: inset 0 0 3px 1px rgb(0, 0, 0, 0.09804);
+}
+
+.form-for-comment input:focus,
+.form-for-comment textarea:focus {
+    font-weight: normal;
+}
+.form-for-comment input:focus::placeholder,
+.form-for-comment textarea:focus::placeholder {
+    color: #575757;
+}
+
+.form-for-comment button {
+  display: block;
+  width: 100%;
+  max-width: 250px;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #70d8cf, #017ba6, #b00c85);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.form-for-comment button:focus {
+  outline: 0;
+}
+.form-for-comment button:hover {
+  background: linear-gradient(to right, #70d8cfd8, #017aa6d8, #b00c84d7);
+  color: white;
+}
+
+.comment__title {
+  font-size: 24px;
+  text-align: center;
+  line-height: 20px;
+}
+.comment__title h3 {
+  padding: 5px 0;
+  margin: 10px 0 20px 0;
+}
+
+@media(max-width: 768px){
+  .form-for-comment {
+    width: 100%;
+  }
+}
+
+.window-show {
+    background-color: #fefefe;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    line-height: 20px;
+    text-align: center;
+    position: inherit;
+    top: 40%;
+    border-radius: 10px;
+    left: calc(50% - 200px);
+    box-shadow: 1px 3px 6px 3px #263238;
+    color: #212121;
+
+
+}
+
+.my-own-popup-window {
+    display: none;
+    padding: 0 10px;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .window-show {
+        max-width: 320px;
+        overflow: auto;
+        margin: auto;
+        top: 0; left: 0; bottom: 0; right: 0;
+        padding: 20px 10px 30px 10px;
+        height: fit-content;
+    
+    }
+}
